@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../asstes/log-in.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    min-height: 40vh;
+    padding: 40px;
+    /* glassmorphism effect*/
+    background: rgba(200, 103, 103, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+p a {
+    text-decoration: none;
+    color: rgb(39, 37, 48);
+}
+
+p {
+    color: rgb(71, 71, 32);
+}
+#form input {
+    height: 30px;
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid rgba(72, 119, 138, 0.715);
+    border-radius: 10px;
+    padding: 2px 20px;
+    font-size: 16px;
+}
+
+#submit{
+    background:local;
+    background-color: rgba(45, 45, 110, 0.651);
+    color: honeydew;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+}
