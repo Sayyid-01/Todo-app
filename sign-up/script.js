@@ -15,7 +15,7 @@ function login() {
 
     }
     else if (storedPassword === pass.value) {
-        window.location.href = "../index.html";
+        window.location.href = "./app.html";
     } else {
         alert("Wrong password! Please enter a correct password.");
     }
